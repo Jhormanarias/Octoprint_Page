@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url(menu.css);
+@import url(carrusel.css);
+@import url(blog.css);
+@import url(carrusel-responsive.css);
+
+*{ 
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+header{
+	width: 100%;
+	height:13vh;
+	background-color: #2E9AFE;
+	color: #ffffff;
+
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+
+}
+
+header img {
+	        height: 12vh;
+	        float: left;
+	        padding: 0 0 0 1%;
+}
+
+.contenedor{
+		    width: 100%;
+	        margin: 0;
+}
+
+main{
+	position: absolute;
+}
+
+header .contenedor {
+	display: table;
+}
+
+section {
+	width: 100%;
+}
+
+section .contenedor {
+	padding: 73px 0 0 0;
+	position: relative;
+	width: 100%;
+	color: #fff;
+}
+
+section .contenedor2 {
+	margin-top: 73px;
+	float: right;
+	width: 100%;
+	color: black;
+}
+
+#primer-p{
+	padding: 20px;
+	text-align: center;
+}
+
+footer{
+	width: 100%;
+	left: 0;
+	z-index: 100;
+	margin: 0;
+}
+
+footer .contenedor {
+	background-color: #333;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding-bottom: 25px;
+	text-align: center;
+}
+
+.copy {
+	font-size: 20px;
+}
+
+.sociales {
+	width: 100%;
+	text-align: center;
+	font-size: 28px;
+}
+
+.sociales a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.contenedor-registro {
+	margin-top: 73px;
+
+}
+
+.p-nav{ 
+    padding: 20px;
+    font-style: italic;
+ }
+
+.contenedor2 {
+	text-align: center;
+}
+
+.container-contact{
+	margin-top: 100px;
+}
+
+.container-fluid2{
+	margin-top: 15vh;
+    padding: 2%;
+}
+
+.container2{
+	margin-top: 13vh;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+textarea{
+	width: 100%;
+	height: 100px;
+}
+
+@media (min-width: 1080px){
+	#primer-p{
+		font-size: 25px;
+		text-align: center;
+		padding: 0 30%;
+	}
+}
+
+.error{
+	color: red;
+}
